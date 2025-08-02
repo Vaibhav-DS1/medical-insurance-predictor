@@ -36,7 +36,7 @@ def predict_charges(age, sex, bmi, children, smoker, region):
 
     prediction = model.predict([test_array])[0]
     return round(prediction, 2)
-
+# dummy comment to trigger rerun
 # ===== Streamlit UI =====
 st.title("🏥 Medical Insurance Charges Predictor")
 
